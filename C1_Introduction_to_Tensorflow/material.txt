@@ -1,0 +1,5 @@
+Link to Course ipynb files :
+https://github.com/https-deeplearning-ai/tensorflow-1-public
+
+Link to all ppts:
+https://community.deeplearning.ai/t/tf1-course-1-lecture-notes/124222
