@@ -1,0 +1,24 @@
+Q-Question, A-Answer, E-Explanation
+
+Q1. What is the resolution of o the 70,000 images from the Fashion MNIST dataset?
+A1. 28x28 Greyscale
+
+Q2. Why are there 10 output neurons in the Neural Network used as an example for the Computer Vision Problem?
+A2. There are 10 different labels
+E2. Exactly! There are 10 output neurons because we have 10 classes of clothing in the dataset. These should always match.
+
+Q3. What does Relu do?
+A3. It only returns x if x is greater than zero
+E3. Correct! The rectifier or ReLU (Rectified Linear Unit) activation function returns x if x is greater than zero.
+
+Q4. Why do you split data into training and test sets?
+A4. To test a network with previously unseen data
+E4. Nailed it! Splitting the data into training and test seat allows you to test the network with unseen data.
+
+Q5. True or False: The on_epoch_end function sends a logs object with lots of great information about the current state of training at the start of every epoch
+A5. False
+E5. Absolutely! The function activates at the end of every epoch
+
+Q6. Why do you set the callbacks= parameter in your fit function?
+A6. So, on every epoch you can call back to a code function
+E6. That’s right! You can have it check the metrics and stop the training.
