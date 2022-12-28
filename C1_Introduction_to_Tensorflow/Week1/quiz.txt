@@ -1,4 +1,4 @@
-Q-Question, A-Answer, E-Explanantion
+Q-Question, A-Answer, E-Explanation
 
 Q1. What is the difference between traditional programming and Machine Learning?
 A1. In traditional programming, a programmer has to formulate or code rules manually, whereas, in Machine Learning, the algorithm automatically formulates the rules from the data.
