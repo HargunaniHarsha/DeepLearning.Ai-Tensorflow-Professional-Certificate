@@ -1,0 +1,29 @@
+Q-Question, A-Answer, E-Explanantion
+
+Q1. What is the difference between traditional programming and Machine Learning?
+A1. In traditional programming, a programmer has to formulate or code rules manually, whereas, in Machine Learning, the algorithm automatically formulates the rules from the data.
+E1. Exactly! Machine learning algorithms build a model based on sample data known as “training data” in order to make predictions or decisions without being explicitly programmed to do so.
+
+Q2. What do we call the process of telling the computer what the data represents (i.e. this data is for walking, this data is for running)?
+A2. Labelling the Data
+E2. Yes! Labeling typically takes a set of unlabeled data and augments each piece of it with informative tags.
+
+Q3. What is a Dense layer?
+A3. A layer of connected neurons
+E3. Correct! In Keras, dense is used to define a layer of connected neurons.
+
+Q4. How do you measure how good the current ‘guess’ is?
+A4. Using the Loss Function
+E4. Absolutely!  An optimization problem seeks to minimize a loss function.
+
+Q5. What does the optimizer do?
+A5. Generates a new and improved guess
+E5. Nailed it! The optimizer figures out the next guess based on the loss function.
+
+Q6. What is Convergence?
+A6. The process of getting very close to the correct answer
+E6. That’s right! Convergence is when guesses get better and better closing to a 100% accuracy.
+
+Q7. What does model.fit do?
+A7. It trains the neural network to fit one set of values to another
+E7. Correct! The training takes place on the fit command.
