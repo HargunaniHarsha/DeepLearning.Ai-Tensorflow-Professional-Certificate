@@ -1,0 +1,20 @@
+Q-Question, A-Answer, E-Explanation
+
+Q1. How do Convolutions improve image recognition?
+A1. They isolate features in images
+E1. Additionally, a properly designed convolution layer can even make training faster.
+
+Q2. What does the Pooling technique do to the images?
+A2. Reduces information in them while maintaining some features
+E2. Pooling reduces information without removing all of the features.
+
+Q3. True or  False. If you pass a 28x28 image through a 3x3 filter the output will be 26x26.
+A3. True
+
+Q4. After max pooling a 26x26 image with a 2x2 filter, the output will be 56x56.
+A4. False
+E4. Yes! The output would actually be 13x13
+
+Q5. How does using Convolutions in our Deep neural network impact training?
+A5. Its impact will depend on other factors.
+E5. Correct! Using convolutions might make your training faster or slower, and a poorly designed Convolutional layer may even be less efficient than a plain DNN!
