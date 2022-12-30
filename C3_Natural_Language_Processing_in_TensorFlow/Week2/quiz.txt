@@ -1,0 +1,23 @@
+Q1. What is the name of the TensorFlow library containing common data that you can use to train and test neural networks?
+A1. TensorFlow Datasets
+
+Q2. How many reviews are there in the IMDB dataset and how are they split?
+A2. 50,000 records, 50/50 train/test split
+
+Q3. How are the labels for the IMDB dataset encoded?
+A3. Reviews encoded as a number 0-1
+
+Q4. What is the purpose of the embedding dimension?
+A4. It is the number of dimensions for the vector representing the word encoding
+
+Q5. When tokenizing a corpus, what does the num_words=n parameter do?
+A5. It specifies the maximum number of words to be tokenized, and picks the most common ‘n-1’ words
+
+Q6. To use word embeddings in TensorFlow, in a sequential layer, what is the name of the class?
+A6. tf.keras.layers.Embedding
+
+Q7. IMDB Reviews are either positive or negative. What type of loss function should be used in this scenario?
+A7. Binary crossentropy
+
+Q8. When using IMDB Sub Words dataset, our results in classification were poor. Why?
+A8. Sequence becomes much more important when dealing with subwords, but we’re ignoring word positions
