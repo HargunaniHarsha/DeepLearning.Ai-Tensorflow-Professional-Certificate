@@ -1,0 +1,23 @@
+Q1. If X is the standard notation for the input to an RNN, what are the standard notations for the outputs?
+A1. Y(hat) and H
+
+Q2. What is a sequence to vector if an RNN has 30 cells numbered 0 to 29
+A2. The Y(hat) for the last cell
+
+Q3. What does a Lambda layer in a neural network do?
+A3. Allows you to execute arbitrary code while training
+
+Q4. What does the axis parameter of tf.expand_dims do?
+A4. Defines the dimension index at which you will expand the shape of the tensor 
+
+Q5. A new loss function was introduced in this module, named after a famous statistician. What is it called?
+A5. Huber Loss
+
+Q6. What’s the primary difference between a simple RNN and an LSTM
+A6. In addition to the H output, LSTMs have a cell state that runs across all cells 
+
+Q7. If you want to clear out all temporary variables that tensorflow might have from previous sessions, what code do you run?
+A7. tf.keras.backend.clear_session()  
+
+Q8. What happens if you define a neural network with these two layers?
+A8. Your model will fail because you need return_sequences=True after the first LSTM layer
