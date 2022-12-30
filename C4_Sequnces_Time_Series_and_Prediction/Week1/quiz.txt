@@ -1,0 +1,26 @@
+Q1. What is an example of a Univariate time series?
+A1. Hour by hour temperature
+
+Q2. What is an example of a Multivariate time series?
+A2. Hour by hour weather 
+
+Q3. What is imputed data?
+A3. A projection of unknown (usually past or missing) data
+
+Q4. A sound wave is a good example of time series data
+A4. True
+
+Q5. What is Seasonality?
+A5. A regular change in shape of the data
+
+Q6. What is a trend?
+A6. An overall direction for data regardless of direction
+
+Q7. In the context of time series, what is noise?
+A7. Unpredictable changes in time series data
+
+Q8. What is autocorrelation?
+A8. Data that follows a predictable shape, even if the scale is different
+
+Q9. What is a non-stationary time series?
+A9. One that has a disruptive event breaking trend and seasonality.
