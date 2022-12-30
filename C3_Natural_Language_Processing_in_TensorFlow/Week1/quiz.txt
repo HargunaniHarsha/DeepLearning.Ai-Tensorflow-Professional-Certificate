@@ -1,0 +1,23 @@
+Q1. What is the name of the object used to tokenize sentences?
+A1. Tokenizer
+
+Q2. What is the name of the method used to tokenize a list of sentences?
+A2. fit_on_texts(sentences)
+
+Q3. Once you have the corpus tokenized, what’s the method used to encode a list of sentences to use those tokens?
+A3. texts_to_sequences(sentences)
+
+A4. When initializing the tokenizer, how do you specify a token to use for unknown words?
+A4. oov_token=<Token>
+
+Q5. If you don’t use a token for out of vocabulary words, what happens at encoding?
+A5. The word isn’t encoded, and is skipped in the sequence
+
+Q6. If you have a number of sequences of different lengths, how do you ensure that they are understood when fed into a neural network?
+A6. Use the pad_sequences function from the tensorflow.keras.preprocessing.sequence namespace
+
+Q7. If you have a number of sequences of different length, and call pad_sequences on them, what’s the default result?
+A7. They’ll get padded to the length of the longest sequence by adding zeros to the beginning of shorter ones
+
+Q8. When padding sequences, if you want the padding to be at the end of the sequence, how do you do it?
+A8. Pass padding=’post’ to pad_sequences when initializing it
