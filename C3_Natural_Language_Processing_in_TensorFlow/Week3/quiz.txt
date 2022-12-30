@@ -1,0 +1,23 @@
+Q1. Why does sequence make a large difference when determining semantics of language?
+A1. Because the order in which words appear dictate their impact on the meaning of the sentence
+
+Q2. How do Recurrent Neural Networks help you understand the impact of sequence on meaning?
+A2. They carry meaning from one cell to the next
+
+Q3. How does an LSTM help understand meaning when words that qualify each other aren’t necessarily beside each other in a sentence?
+A3. Values from earlier words can be carried to later ones via a cell state
+
+Q4. What keras layer type allows LSTMs to look forward and backward in a sentence?
+A4. Bidirectional
+
+Q5. What’s the output shape of a bidirectional LSTM layer with 64 units?
+A5. (None, 128)
+
+Q6. When stacking LSTMs, how do you instruct an LSTM to feed the next one in the sequence?
+A6. Ensure that return_sequences is set to True only on units that feed to another LSTM
+
+Q7. If a sentence has 120 tokens in it, and a Conv1D with 128 filters with a Kernal size of 5 is passed over it, what’s the output shape?
+A7. (None, 116, 128)
+
+Q8. What’s the best way to avoid overfitting in NLP datasets?
+A8. None of the above
