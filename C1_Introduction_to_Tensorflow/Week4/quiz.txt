@@ -15,7 +15,7 @@ Q4. When we specify the input_shape to be (300, 300, 3), what does that mean?
 A4. Every Image will be 300x300 pixels, with 3 bytes to define color
 
 Q5. If your training data is close to 1.000 accuracy, but your validation data isn’t, what’s the risk here?
-A5. ou’re overfitting on your training data.
+A5. You’re overfitting on your training data.
 E5. The analysis corresponds too closely to the training data, and may therefore fail to fit additional data.
 
 Q6. Convolutional Neural Networks are better for classifying images like horses and humans because:
